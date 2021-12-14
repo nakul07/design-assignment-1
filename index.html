@@ -19,9 +19,10 @@
     <!-- Header -->
 
     <header>
-      <div class="container header-1 clearfix">
+      <div class="header-1 clearfix">
+        <div class="container">
         <div class="logo fl">
-          <img src="images/main-logo.png" alt="main-log" />
+          <img src="images/main-logo.png" width="224" height="51" alt="main-log" />
         </div>
         <div class="search fl clearfix">
           <div class="search-bar fl clearfix">
@@ -29,32 +30,33 @@
             <div class="search-section fl">
               <input
                 type="text"
-                class="reset"
-                value="Search by Term, Member or Entry Title "
+                class="reset" id="input"
+                placeholder="Search by Term, Member or Entry Title "
               />
-              <button class="button-cross reset"></button>
+              <!-- <button class="button-cross reset"></button> -->
             </div>
             <div class="search-icon fl"></div>
             <dic class="curve-2 fl"> </dic>
           </div>
           <div class="btn-search-c1 fl"></div>
           <div class="button-search fl">
-            <button class="reset-btn"></button>
+            <a href=""> <span>Search</span></a>
           </div>
           <div class="btn-search-c2 fr"></div>
         </div>
         <div class="top-right-nav fr">
-          <p class="p-name">Joe Burros</p>
+          <p class="p-name fb">Joe Burros</p>
           <nav class="nav-mini">
             <ul>
-              <li><a href="#">Home</a></li>
-              <span>|</span>
-              <li><a href="#">Setting</a></li>
-              <span>|</span>
-              <li><a href="#">Logout</a></li>
+              <li><a class="fb"href="#">Home</a></li>
+              <span class="fb">|</span>
+              <li><a class="fb" href="#">Setting</a></li>
+              <span class="fb">|</span>
+              <li><a class="fb" href="#">Logout</a></li>
             </ul>
           </nav>
         </div>
+      </div>
       </div>
 
       <nav class="nav-bar clearfix">

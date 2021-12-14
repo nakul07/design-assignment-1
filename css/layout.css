@@ -6,19 +6,19 @@
 }
 .container {
   max-width: 938px;
-  margin: auto;
+  margin: 0 auto;
 }
 header {
-  margin: 0px;
+  margin-bottom: 30px;
   /* height: 125px; */
 }
-.logo {
+/* .logo {
   margin-top: 20px;
-}
+} */
 .search {
   margin-top: 40px;
-  margin-left: 10px;
-  margin-bottom: 25px;
+  /* margin-left: 10px; */
+  /* margin-bottom: 25px; */
 }
 .fl {
   float: left;

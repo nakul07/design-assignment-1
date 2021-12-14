@@ -1,9 +1,19 @@
 /* @import url("https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500&display=swap"); */
-* {
+body {
   font-family: "Mulish", sans-serif;
+}
+.fb {
+  font-weight: bold;
+}
+.header-1 {
+  height: 85px;
 }
 header {
   background-color: #7dd9e8;
+}
+.logo {
+  padding-top: 19px;
+  margin-right: 23px;
 }
 .nav-bar {
   background-color: #f5f5f5;
@@ -16,7 +26,6 @@ header {
 .search-section {
   background: url(/Design-Assg-1/images/searchbar.png) no-repeat right top;
   width: 237px;
-  height: 20px;
 }
 .reset {
   outline: none;
@@ -24,6 +33,11 @@ header {
   background-image: none;
   background-color: transparent;
   box-shadow: none;
+}
+#input {
+  width: 232px;
+  height: 20px;
+  font-size: 10px;
 }
 .search-icon {
   background: url(/Design-Assg-1/images/lens.png);
@@ -52,9 +66,18 @@ header {
 }
 .button-search {
   /* margin-left: 16px; */
-  background: url(/Design-Assg-1/images/search.png);
+  background: url(/Design-Assg-1/images/search-bg.png);
   height: 20px;
   width: 40px;
+}
+.button-search a {
+  color: #ffffff;
+  font-size: 10px;
+  /* text-align: center; */
+}
+.button-search a span {
+  text-align: center;
+  margin-left: 5px;
 }
 .btn-search-c1 {
   background: url(/Design-Assg-1/images/btn-search-c1.png);
@@ -76,7 +99,11 @@ a {
 }
 .p-name {
   text-align: right;
-  font-weight: 500;
+  font-size: 14px;
+}
+.nav-mini {
+  font-size: 10px;
+  padding-top: 6px;
 }
 .nav-links ul li {
   padding: 0 15px;
@@ -141,7 +168,8 @@ a {
   width: 10px;
   height: 65px;
 }
-.middle-left p, .middle-right p {
+.middle-left p,
+.middle-right p {
   text-align: center;
   margin-top: 5px;
 }
@@ -169,25 +197,23 @@ a {
   height: 28px;
   text-align: center;
 }
-.middle-tab-4{
+.middle-tab-4 {
   margin-left: 5px;
 }
-.middle-nav{
-  border-bottom: 2px solid #30C2DB;
-  ;
+.middle-nav {
+  border-bottom: 2px solid #30c2db;
 }
-.profile-contents{
+.profile-contents {
   border-bottom: 1px solid gray;
 }
-footer{
+footer {
   background: #727272;
   height: 45px;
   padding: 15px 30px;
-
 }
-.footer-ul li::after{
-content: '•'
+.footer-ul li::after {
+  content: "•";
 }
-.footer-ul li:last-child::after{
-  content: '';
+.footer-ul li:last-child::after {
+  content: "";
 }
