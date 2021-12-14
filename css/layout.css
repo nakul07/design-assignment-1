@@ -1,6 +1,7 @@
 .clearfix {
   overflow: auto;
 }
+
 .container-main {
   min-width: 1002px;
 }
