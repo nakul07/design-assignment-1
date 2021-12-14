@@ -47,7 +47,7 @@ header {
   margin-left: 25px;
 }
 .search-section {
-  background: url(/Design-Assg-1/images/searchbar.png) no-repeat right top;
+  background: url(../images/searchbar.png) no-repeat right top;
   width: 237px;
 }
 .reset {
@@ -63,19 +63,19 @@ header {
   font-size: 10px;
 }
 .search-icon {
-  background: url(/Design-Assg-1/images/lens.png);
+  background: url(../images/lens.png);
   height: 20px;
   width: 15px;
   margin-left: 1px;
 }
 
 .curve-2 {
-  background: url(/Design-Assg-1/images/curve-s-2.png);
+  background: url(../images/curve-s-2.png);
   height: 20px;
   width: 6px;
 }
 .curve-1 {
-  background: url(/Design-Assg-1/images/curve-s-1.png);
+  background: url(../images/curve-s-1.png);
   height: 20px;
   width: 6px;
 }
@@ -89,7 +89,7 @@ header {
 }
 .button-search {
   /* margin-left: 16px; */
-  background: url(/Design-Assg-1/images/search-bg.png);
+  background: url(../images/search-bg.png);
   height: 20px;
   width: 40px;
   padding-top: 3px;
@@ -104,13 +104,13 @@ header {
   margin-left: 5px;
 }
 .btn-search-c1 {
-  background: url(/Design-Assg-1/images/btn-search-c1.png);
+  background: url(../images/btn-search-c1.png);
   height: 20px;
   width: 6px;
   margin-left: 10px;
 }
 .btn-search-c2 {
-  background: url(/Design-Assg-1/images/btn-search-c2.png);
+  background: url(../images/btn-search-c2.png);
   height: 20px;
   width: 6px;
 }
@@ -175,7 +175,7 @@ a {
   padding-top: 10px;
   padding: 13px 11px;
 }
-.search-contents img{
+.search-contents img {
   padding-top: 15px;
   padding-right: 10px;
 }
@@ -211,12 +211,12 @@ a {
   position: relative;
 }
 .middle-left-c1 {
-  background: url(/Design-Assg-1/images/all-entries-c1.png);
+  background: url(../images/all-entries-c1.png);
   width: 10px;
   height: 65px;
 }
 .middle-left-c2 {
-  background: url(/Design-Assg-1/images/all-entries-c2.png);
+  background: url(../images/all-entries-c2.png);
   width: 10px;
   height: 65px;
 }
@@ -235,7 +235,7 @@ a {
 }
 
 .middle-tab-1 {
-  background: url(/Design-Assg-1/images/middle-tab-1.png);
+  background: url(../images/middle-tab-1.png);
   width: 115px;
   height: 28px;
   text-align: center;
@@ -247,7 +247,7 @@ a {
 .middle-tab-2,
 .middle-tab-3,
 .middle-tab-4 {
-  background: url(/Design-Assg-1/images/middle-tab-2.png);
+  background: url(../images/middle-tab-2.png);
   width: 115px;
   height: 28px;
   text-align: center;
@@ -257,7 +257,7 @@ a {
 .middle-tab-2:hover,
 .middle-tab-3:hover,
 .middle-tab-4:hover {
-  background: url(/Design-Assg-1/images/middle-tab-1.png);
+  background: url(../images/middle-tab-1.png);
   color: #ffffff;
 }
 
