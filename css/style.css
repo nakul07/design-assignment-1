@@ -1,14 +1,17 @@
-@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500&display=swap");
-
+/* @import url("https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500&display=swap"); */
+* {
+  font-family: "Mulish", sans-serif;
+}
 header {
   background-color: #7dd9e8;
-  font-family: "mulish", sans-serif;
 }
 .nav-bar {
   background-color: #f5f5f5;
+  padding: 10px 10px;
 }
 .middle-container {
-  margin-left: 50%;
+  width: 518px;
+  margin-left: 25px;
 }
 .search-section {
   background: url(/Design-Assg-1/images/searchbar.png) no-repeat right top;
@@ -77,17 +80,114 @@ a {
 }
 .nav-links ul li {
   padding: 0 15px;
-  margin-top: 10px;
 }
 .nav-links a {
   color: #000000;
 }
 .topic-box {
-  margin-bottom: 10px;
-  margin-right: 15px;
+  margin: 0 10px;
+}
+.friend-request {
+  margin: 0 10px;
+}
+.left-container {
+  background: #f5f5f5;
+  width: 194px;
 }
 .left-heading {
   background: #2fc1da;
   font-size: 26px;
   font-weight: 500;
+  height: 40px;
+}
+.search-contents ul li {
+  width: 100%;
+}
+.search-contents ul li span {
+  padding-top: 10px;
+}
+.video-tutorial li {
+  display: block;
+  height: 35px;
+}
+.right-container {
+  background: #f5f5f5;
+  width: 178px;
+}
+.middle-container h1 {
+  font-size: 26px;
+}
+.middle-left {
+  background: #f5f5f5;
+  width: 248px;
+  height: 65px;
+  position: relative;
+}
+
+.middle-right {
+  background: #f5f5f5;
+  margin-left: 2px;
+  width: 248px;
+  height: 65px;
+  position: relative;
+}
+.middle-left-c1 {
+  background: url(/Design-Assg-1/images/all-entries-c1.png);
+  width: 10px;
+  height: 65px;
+}
+.middle-left-c2 {
+  background: url(/Design-Assg-1/images/all-entries-c2.png);
+  width: 10px;
+  height: 65px;
+}
+.middle-left p, .middle-right p {
+  text-align: center;
+  margin-top: 5px;
+}
+.all-entries {
+  position: absolute;
+  bottom: 0;
+}
+.suscribed {
+  position: absolute;
+  bottom: 0;
+}
+
+.middle-tab-1 {
+  background: url(/Design-Assg-1/images/middle-tab-1.png);
+  width: 115px;
+  height: 28px;
+  text-align: center;
+}
+
+.middle-tab-2,
+.middle-tab-3,
+.middle-tab-4 {
+  background: url(/Design-Assg-1/images/middle-tab-2.png);
+  width: 115px;
+  height: 28px;
+  text-align: center;
+}
+.middle-tab-4{
+  margin-left: 5px;
+}
+.middle-nav{
+  border-bottom: 2px solid #30C2DB;
+  ;
+}
+.profile-contents{
+  border-bottom: 1px solid gray;
+}
+footer{
+  background: #727272;
+  height: 45px;
+  padding: 15px 30px;
+
+}
+.footer-ul li::after{
+content: '•'
+}
+.footer-ul li:last-child::after{
+  content: '';
 }

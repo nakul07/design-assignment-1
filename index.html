@@ -3,201 +3,275 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Tutangle</title>
+  <link rel="stylesheet" href="css/reset.css" />
   <link rel="stylesheet" href="css/style.css" />
   <link rel="stylesheet" href="css/layout.css" />
-  <link rel="stylesheet" href="css/reset.css" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500&display=swap"
+    rel="stylesheet"
+  />
 </head>
 <body>
-  <!-- Header -->
-  <header class="container">
-    <div class="header-1 clearfix">
-      <div class="logo fl">
-        <img src="images/main-logo.png" alt="main-log" />
-      </div>
-      <div class="search fl clearfix">
-        <div class="search-bar fl clearfix">
-          <div class="curve-1 fl"></div>
-          <div class="search-section fl">
-            <input
-              type="text"
-              class="reset"
-              value="Search by Term, Member or Entry Title "
-            />
-            <button class="button-cross reset"></button>
-          </div>
-          <div class="search-icon fl"></div>
-          <dic class="curve-2 fl"> </dic>
-        </div>
-        <div class="btn-search-c1 fl"></div>
-        <div class="button-search fl">
-          <button class="reset-btn"></button>
-        </div>
-        <div class="btn-search-c2 fr"></div>
-      </div>
-      <div class="top-right-nav fr">
-        <p class="p-name">Joe Burros</p>
-        <nav class="nav-mini">
-          <ul>
-            <li><a href="#">Home</a></li>
-            <span>|</span>
-            <li><a href="#">Setting</a></li>
-            <span>|</span>
-            <li><a href="#">Logout</a></li>
-          </ul>
-        </nav>
-      </div>
-    </div>
+  <div class="container-main">
+    <!-- Header -->
 
-    <nav class="nav-bar clearfix">
-      <div class="nav-links">
-        <ul>
-          <li><a href="#">Create New Entry</a></li>
-          <li><a href="#">My Topic Boxes</a></li>
-          <li><a href="#">Friends</a></li>
-          <li><a href="#">Invite New Member</a></li>
-        </ul>
-      </div>
-      <div class="nav-links-2 fr clearfix">
-        <div class="topic-box fl">
-          <span
-            ><img src="images/topic-boc.png" height="16px" alt="topic-box"
-          /></span>
-          <span>Topic Boxes Invites - 2</span>
+    <header>
+      <div class="container header-1 clearfix">
+        <div class="logo fl">
+          <img src="images/main-logo.png" alt="main-log" />
         </div>
-        <div class="friend-request fr">
-          <span
-            ><img src="images/frn-req.png" height="16px" alt="friend-request"
-          /></span>
-          <span>Friend Requests - 0</span>
+        <div class="search fl clearfix">
+          <div class="search-bar fl clearfix">
+            <div class="curve-1 fl"></div>
+            <div class="search-section fl">
+              <input
+                type="text"
+                class="reset"
+                value="Search by Term, Member or Entry Title "
+              />
+              <button class="button-cross reset"></button>
+            </div>
+            <div class="search-icon fl"></div>
+            <dic class="curve-2 fl"> </dic>
+          </div>
+          <div class="btn-search-c1 fl"></div>
+          <div class="button-search fl">
+            <button class="reset-btn"></button>
+          </div>
+          <div class="btn-search-c2 fr"></div>
+        </div>
+        <div class="top-right-nav fr">
+          <p class="p-name">Joe Burros</p>
+          <nav class="nav-mini">
+            <ul>
+              <li><a href="#">Home</a></li>
+              <span>|</span>
+              <li><a href="#">Setting</a></li>
+              <span>|</span>
+              <li><a href="#">Logout</a></li>
+            </ul>
+          </nav>
         </div>
       </div>
-    </nav>
-  </header>
-  <!-- content -->
-  <div class="container clearfix">
-    <div class="left-container fl">
-      <div class="recent-search">
+
+      <nav class="nav-bar clearfix">
+        <div class="container">
+          <div class="nav-links fl">
+            <ul>
+              <li><a href="#">Create New Entry</a></li>
+              <li><a href="#">My Topic Boxes</a></li>
+              <li><a href="#">Friends</a></li>
+              <li><a href="#">Invite New Member</a></li>
+            </ul>
+          </div>
+          <div class="nav-links-2 fr clearfix">
+            <div class="topic-box fl">
+              <span
+                ><img src="images/topic-boc.png" height="16px" alt="topic-box"
+              /></span>
+              <span>Topic Boxes Invites - 2</span>
+            </div>
+            <div class="friend-request fr">
+              <span
+                ><img
+                  src="images/frn-req.png"
+                  height="16px"
+                  alt="friend-request"
+              /></span>
+              <span>Friend Requests - 0</span>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- content -->
+    <div class="container clearfix">
+      <div class="left-container fl">
+        <div class="recent-search">
+          <div class="left-heading">
+            <h2>Recent Searches</h2>
+          </div>
+
+          <div class="search-contents clearfix">
+            <ul>
+              <li>
+                <span class="fl">lineeeee1</span
+                ><img class="fr" src="images/download-icon.png" alt="" />
+              </li>
+              <li>
+                <span class="fl">lineeeee2</span
+                ><img class="fr" src="images/download-icon.png" alt="" />
+              </li>
+            </ul>
+          </div>
+          <div class="left-heading">
+            <h2>Recent Searches</h2>
+          </div>
+
+          <div class="search-contents clearfix">
+            <ul>
+              <li>
+                <span class="fl">lineeeee1</span
+                ><img class="fr" src="images/bar.png" alt="" />
+              </li>
+              <li>
+                <span class="fl">lineeeee2</span
+                ><img class="fr" src="images/bar.png" alt="" />
+              </li>
+              <li>
+                <span class="fl">lineeeee2</span
+                ><img class="fr" src="images/bar.png" alt="" />
+              </li>
+              <li>
+                <span class="fl">lineeeee2</span
+                ><img class="fr" src="images/bar.png" alt="" />
+              </li>
+              <li>
+                <span class="fl">lineeeee2</span
+                ><img class="fr" src="images/bar.png" alt="" />
+              </li>
+              <li>
+                <span class="fl">lineeeee2</span
+                ><img class="fr" src="images/bar.png" alt="" />
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- middle container -->
+      <div class="middle-container fl clearfix">
+        <h1>Entries</h1>
+        <div class="middle-nav clearfix">
+          <div class="middle-left-c1 fl"></div>
+          <div class="middle-left fl">
+            <p>All Entries</p>
+            <div class="all-entries clearfix">
+              <div class="middle-tab-1 fl">
+                <a href="#">All Members</a>
+              </div>
+              <div class="middle-tab-2 fr">
+                <a href="#">Friends</a>
+              </div>
+            </div>
+          </div>
+          <div class="middle-left-c2 fr"></div>
+          <div class="middle-right fr">
+            <p>Suscribed</p>
+            <div class="suscribed clearfix">
+              <div class="middle-tab-3 fl">
+                <a href="#">New Entries</a>
+              </div>
+              <div class="middle-tab-4 fr">
+                <a href="#">Comments</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="middle-contents">
+          <div class="contents clearfix">
+            <div class="profile-pic fl">
+              <img src="images/PP-1.png" alt="Profile Picture" />
+            </div>
+            <div class="profile-contents fl">
+              <!-- <span>Hot topics</span> -->
+              <p>Day for Night by Francois Truffaut, a ground breaking film</p>
+              <div class="content-items">
+                <p>By <span><a href="#">Alan Coe</a></span> | February 10,2012 | <span><a href="#">Subscribed</a></span> </p>
+                <p>From Topic Box: <span><a href="#">My Favorite Movies</a></span> </p>
+              </div>
+            </div>
+          </div>
+          <div class="contents clearfix">
+            <div class="profile-pic fl">
+              <img src="images/pp-2.png" alt="Profile Picture" />
+            </div>
+            <div class="profile-contents fl">
+              <span>NEW ENTRY!</span>
+              <p><a href="#">Blade Runner, The Director's Cut</a></p>
+              <div class="content-items">
+                <p>by <span> <a href="#">Mary Pilot</a>  </span> | February 8,2012 |</p>
+                <p>From Topic Box: <span> <a href="#">Behind The Scenes</a></span></p>
+              </div>
+            </div>
+          </div>
+          <div class="contents clearfix">
+            <div class="profile-pic fl">
+              <img src="images/pp-3.png" alt="Profile Picture" />
+            </div>
+            <div class="profile-contents fl">
+              <span>NEW COMMENT!</span>
+              <p> <a href="#">Best French Restaurant in Chicago?</a> </p>
+              <div class="content-items">
+                <p>by <span><a href="#"> Jim Roy</a> </span> | February 7,2012 |</p>
+                <p>From Topic Box: <span><a href="#">Chicago Restaurants Reviews</a></span></p>
+              </div>
+            </div>
+          </div>
+          <div class="contents clearfix">
+            <div class="profile-pic fl">
+              <img src="images/pp-4.png" alt="Profile Picture" />
+            </div>
+            <div class="profile-contents fl">
+              <!-- <span>Hot topics</span> -->
+              <p><a href="#">The Meaning of Night, a Dark Book but incredibly well written</a></p>
+              <div class="content-items">
+                <p>by <span><a href="#">Peter Moise</a></span>  | February 7,2012 | <span><a href="">Subscribed</a></span></p>
+                <p>From Topic Box: <span><a href="#">Books read & Books to Read</a></span> </p>
+              </div>
+            </div>
+          </div>
+          <div class="contents clearfix">
+            <div class="profile-pic fl">
+              <img src="images/pp-5.png" alt="Profile Picture" />
+            </div>
+            <div class="profile-contents fl">
+              <span>TOP BOX INVITE!</span>
+              <p><a href="#">Pea Pesto</a></p>
+              <div class="content-items">
+                <p>by <span><a href="#">Marianne Gig </a></span>| February 7,2012 |</p>
+                <p>From Topic Box: <span> <a href="">Favourite Recipies</a></span> </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="right-container fr">
         <div class="left-heading">
-          <h2>Recent Searches</h2>
+          <h2>Video Tutorials</h2>
         </div>
-
-        <div class="search-contents">
-          <p>abc</p>
-          <span
-            ><img src="images/download-icon.png" alt="download-icon"
-          /></span>
-          <p>abc</p>
-          <span>icon</span>
-        </div>
-        <h2>Recent Searches</h2>
-        <div class="search-contents">
-          <p>abc</p>
-          <span>icon</span>
-          <p>abc</p>
-          <span>icon</span>
-          <p>abc</p>
-          <span>icon</span>
-          <p>abc</p>
-          <span>icon</span>
-          <p>abc</p>
-          <span>icon</span>
-          <p>abc</p>
-          <span>icon</span>
+        <div class="video-tutorial">
+          <ul>
+            <li><a href="#">line1111111</a></li>
+            <li><a href="#">line1111111</a></li>
+            <li><a href="#">line1111111</a></li>
+            <li><a href="#">line1111111</a></li>
+            <li><a href="#">line1111111</a></li>
+            <li><a href="#">line1111111</a></li>
+            <li><a href="#">line1111111</a></li>
+            <li><a href="#">line1111111</a></li>
+            <li><a href="#">line1111111</a></li>
+          </ul>
         </div>
       </div>
     </div>
-    <div class="middle-container fl">
-      <h1>Entries</h1>
-      <div class="middle-nav clearfix">
-        <div class="middle-left fl">
-          <p>All Entries</p>
-          <div class="all-entries">
-            <a href="#">All Members</a>
-            <a href="#">Friends</a>
-          </div>
-        </div>
-        <div class="middle-right fr">
-          <p>Suscribed</p>
-          <div class="suscribed">
-            <a href="#">New Entries</a>
-            <a href="#">Comments</a>
-          </div>
-        </div>
+    <footer>
+      <div class="container clearfix">
+      <nav class="footer-nav fl clearfix">
+        <ul class="footer-ul">
+          <li><a href="#">About Us</a><span></li>
+          <li><a href="#">Contact Us</a><span></li>
+          <li><a href="#">Terms of Use</a><span></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Feedback</a></li>
+        </ul> 
+      </nav>
+      <div class="copyright fr">
+        <p>tutangle 2013</p>
       </div>
-      <div class="middle-contents">
-        <div class="contents clearfix">
-          <div class="profile-pic fl">
-            <img src="images/PP-1.png" alt="Profile Picture" />
-          </div>
-          <div class="profile-contents fr">
-            <span>Hot topics</span>
-            <p>Name</p>
-            <div class="content-items">
-              <p>Lorem ipsum dolor sit amet.</p>
-              <p>Lorem ipsum dolor sit amet.</p>
-            </div>
-          </div>
-        </div>
-        <div class="contents clearfix">
-          <div class="profile-pic">
-            <img src="images/PP-1.png" alt="Profile Picture" />
-          </div>
-          <div class="profile-contents">
-            <span>Hot topics</span>
-            <p>Name</p>
-            <div class="content-items">
-              <p>Lorem ipsum dolor sit amet.</p>
-              <p>Lorem ipsum dolor sit amet.</p>
-            </div>
-          </div>
-        </div>
       </div>
-    </div>
-    <div class="right-container fr">
-      <h2>Video Tutorials</h2>
-      <div class="video-tutorial">
-        <a href="#">Video Tutorial 1</a>
-      </div>
-      <div class="video-tutorial">
-        <a href="#">Video Tutorial 1</a>
-      </div>
-      <div class="video-tutorial">
-        <a href="#">Video Tutorial 1</a>
-      </div>
-      <div class="video-tutorial">
-        <a href="#">Video Tutorial 1</a>
-      </div>
-      <div class="video-tutorial">
-        <a href="#">Video Tutorial 1</a>
-      </div>
-      <div class="video-tutorial">
-        <a href="#">Video Tutorial 1</a>
-      </div>
-      <div class="video-tutorial">
-        <a href="#">Video Tutorial 1</a>
-      </div>
-      <div class="video-tutorial">
-        <a href="#">Video Tutorial 1</a>
-      </div>
-      <div class="video-tutorial">
-        <a href="#">Video Tutorial 1</a>
-      </div>
-    </div>
+    </footer>
   </div>
-  <footer class="container">
-    <nav class="footer-nav">
-      <a href="#">Link 1</a>
-      <span>dot</span>
-      <a href="#">Link 2</a>
-      <span>dot</span>
-      <a href="#">Link 3</a>
-      <span>dot</span>
-      <a href="#">Link 4</a>
-      <span>dot</span>
-      <a href="#">Link 5</a>
-    </nav>
-    <div class="copyright">
-      <p>tutangle 2013</p>
-    </div>
-  </footer>
 </body>
