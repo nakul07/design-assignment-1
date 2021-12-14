@@ -1,0 +1,29 @@
+.clearfix {
+  overflow: auto;
+}
+.container {
+  max-width: 1002px;
+  margin: auto;
+}
+header {
+  margin: 0px;
+  /* height: 125px; */
+}
+.logo {
+  margin: auto;
+}
+.search {
+  margin-top: 40px;
+  margin-left: 10px;
+  margin-bottom: 25px;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.top-right-nav {
+  margin-top: 28px;
+  margin-right: 28px;
+}
