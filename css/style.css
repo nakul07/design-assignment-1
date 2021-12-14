@@ -92,6 +92,7 @@ header {
   background: url(/Design-Assg-1/images/search-bg.png);
   height: 20px;
   width: 40px;
+  padding-top: 3px;
 }
 .button-search a {
   color: #ffffff;
@@ -164,15 +165,19 @@ a {
   padding: 12px 12px;
   color: #f5f5f5;
 }
-.search-contents ul li {
+.search-contents ul a li {
   width: 100%;
 }
-.search-contents ul li:hover {
+.search-contents ul a li:hover {
   background-color: #ffffff;
 }
 .search-contents ul a li span {
   padding-top: 10px;
   padding: 13px 11px;
+}
+.search-contents img{
+  padding-top: 15px;
+  padding-right: 10px;
 }
 .video-tutorial li {
   height: 35px;
@@ -236,7 +241,7 @@ a {
   text-align: center;
   padding-top: 7px;
 }
-.middle-tab-1 a{
+.middle-tab-1 a {
   color: #ffffff;
 }
 .middle-tab-2,
@@ -251,7 +256,7 @@ a {
 }
 .middle-tab-2:hover,
 .middle-tab-3:hover,
-.middle-tab-4:hover{
+.middle-tab-4:hover {
   background: url(/Design-Assg-1/images/middle-tab-1.png);
   color: #ffffff;
 }
